@@ -24,9 +24,6 @@ h1,h2,h3,h4,h5,h6{
 p{
     color:hsl(233, 8%, 62%);
 }
-.navbar{
-    z-index: -1;
-}
 .nav-btn{
     background-image: linear-gradient(to right,hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
     
@@ -52,17 +49,22 @@ h1{
     right: -14rem;
     top: -7rem;
     height: auto;
-    z-index: 1 !important;
+    /* z-index: 1 !important; */
 }
 .card-img-top{
     width:253px;
     height:168.66px;
+}
+.card-title{
+    font-size: 9px;
+    color:black;
 }
 .easy{
     background-color: hsl(220, 16%, 96%);
 }
 footer{
     background-color: hsl(233, 26%, 24%);
+    align-items: center;
     
 }
 footer a{
